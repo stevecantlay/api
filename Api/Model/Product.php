@@ -17,4 +17,8 @@ class Product extends Model{
 
         return $this->client->catalogInventoryStockItemList(array($this->getID()));
     }
+
+    public function getSpecialPrice(){
+        return $this->client->catalogProductGetSpecialPrice($this->getID());
+    }
 }

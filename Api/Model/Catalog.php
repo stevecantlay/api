@@ -6,9 +6,9 @@ use Api\Model\Model;
 class Catalog extends Model{
 
 
-    public function getProducts(){
+    public function getProducts($filter = array()){
 
-        $products = $this->client->catalogProductList();
+        $products = $this->client->catalogProductList($filter);
         return $this->createCollection($products,'Product');
 
     }
