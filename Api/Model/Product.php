@@ -21,4 +21,8 @@ class Product extends Model{
     public function getSpecialPrice(){
         return $this->client->catalogProductGetSpecialPrice($this->getID());
     }
+
+    public function linkProduct($link){
+        return $this->client->catalogProductLinkAssign($link->type,$this->product_id,$link->product_id);
+    }
 }

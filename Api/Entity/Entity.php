@@ -13,7 +13,7 @@ use Api\Hydrator\NullHydrator;
 class Entity {
 
     protected $validation;
-    protected $data;
+    protected $data = array();
     protected $hydrator;
 
     public function setMapping(){
@@ -38,7 +38,8 @@ class Entity {
     }
 
     public function  setData($data){
-        $this->data = $this->extract($data);
+
+        $this->data = array_merge_recursive($this->data,$this->extract($data));
     }
 
     private function extract($data){
@@ -51,5 +52,18 @@ class Entity {
 
     public function setHydrator($hydrator){
         $this->hydrator = $hydrator;
+    }
+
+    public function __set($property,$value) {
+
+        $this->data[$property] = $value;
+        return $this;
+    }
+
+    public function __get($property) {
+        if(!empty($this->data[$property])){
+            return $this->data[$property];
+        }
+        return false;
     }
 } 

@@ -49,8 +49,9 @@ abstract  class Model {
     public function __set($property,$value) {
 
         if ($this->hasProperty($property)) {
-            return $this->setProperty($property,$value);
+            $this->setProperty($property,$value);
         }
+        return $this;
     }
 
     protected function hasProperty($property){
@@ -79,7 +80,6 @@ abstract  class Model {
         if(is_array($this->data)){
             $this->data[$property]  = $value;;
         }
-        return $this;
     }
 
     protected function convert_array_to_obj($a) {

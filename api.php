@@ -17,6 +17,21 @@ $pd = array(
     'meta_description' => 'Product meta description'
 );
 
+$si = array(
+    'qty' => 100,
+    'is_in_stock' => 1
+);
+
+$pl = array(
+    'type'=>'related',
+    'set'=>'',
+    'sku'=>'',
+    'position'=>1,
+    'qty'=>'10',
+);
+
+
+
 $client = new Api\Client\ApiSoapClient;
 
 $catalog = new Api\Model\Catalog($client);
@@ -31,33 +46,53 @@ $productAttributeSets = $catalog->getProductAttributeSets();
 
 
 $newProduct = new  Api\Entity\ProductCreateEntity();
+$newInventoryStock = new  Api\Entity\StockItemUpdateEntity();
+$newInventoryStock->setData($si);
+
 
 $newProduct->setHydrator(new Api\Hydrator\ProductHydrator());
 $newProduct->setData($pd);
-$newProduct->sku = 'a new poduct to test 4';
+$newProduct->sku = 'a new poduct to test 6';
 
 $newProduct->attributeSet = $productAttributeSets
                                 ->filter(array('name'=>'CPU'))
                                 ->current()
                                 ->set_id;
+$newProduct->stock_data = $newInventoryStock->getData();
 
 $product = $catalog->createProduct($newProduct);
 
 if(!$product){
     $error = $catalog->getError();
 }else{
+
+
+
+    $product2 = new  Api\Model\Product($client);
+    $product2->load(158);
+
+    $link = new \Api\Entity\ProductLinkEntity();
+    $link->setData($pl);
+    $link->set = $newProduct->attributeSet;
+    $link->sku = $product2->sku;
+    $link->product_id = $product2->product_id;
+
+    $r = $product->linkProduct($link);
    $r =  $catalog->deleteProduct($product,'sku');
+
+
+
 }
 
 
 
 $categoryProducts = $category->getProducts();
 
-$product = new  Api\Model\Product($client);
+$product2 = new  Api\Model\Product($client);
 
-$product->load(158);
+$product2->load(158);
 
-$category->setProduct($product);
+$category->setProduct($product2);
 
 $categoryProducts = $category->getProducts();
 

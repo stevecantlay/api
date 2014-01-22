@@ -13,8 +13,9 @@ use Api\Entity\Entity;
 
 class ProductCreateEntity extends Entity{
 
-    public $type = 'simple';
-    public $sku;
-    public $attributeSet;
 
+    public function __construct(){
+        parent::__construct();
+        $this->data['type'] = 'simple';
+    }
 } 
