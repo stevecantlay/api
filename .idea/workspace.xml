@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9e0bc22-cb71-4f9c-b1fd-7b4af1e4b7e3" name="Default" comment="" />
+    <list default="true" id="f9e0bc22-cb71-4f9c-b1fd-7b4af1e4b7e3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="api.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +30,115 @@
       <file leaf-file-name="api.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="0" selection-start="1298" selection-end="1298" vertical-scroll-proportion="-1.0466472" vertical-offset="1582" max-vertical-offset="2268">
+            <state line="80" column="0" selection-start="1935" selection-end="1935" vertical-scroll-proportion="0.2611684" vertical-offset="1212" max-vertical-offset="2898">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Category.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Api/Model/Category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="0" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="1350">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductLinkEntity.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Api/Entity/ProductLinkEntity.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="342">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductHydrator.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Api/Hydrator/ProductHydrator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="756">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractHydrator.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Api/Hydrator/AbstractHydrator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="756">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NullHydrator.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Api/Hydrator/NullHydrator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="414">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Filter.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Api/Filter/Filter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="5" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="504">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComplexFilter.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Api/Filter/ComplexFilter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="28" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="342">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductTierPriceEntity.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Api/Entity/ProductTierPriceEntity.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="28" selection-start="141" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="342">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Entity.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Api/Entity/Entity.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="0" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.0" vertical-offset="1152" max-vertical-offset="1332">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductCreateEntity.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Api/Entity/ProductCreateEntity.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="468">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StockItemUpdateEntity.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Api/Entity/StockItemUpdateEntity.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="28" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="342">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Api/Model/Product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="594">
               <folding />
             </state>
           </provider>
@@ -35,7 +147,7 @@
       <file leaf-file-name="Catalog.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Api/Model/Catalog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="0" selection-start="1917" selection-end="1917" vertical-scroll-proportion="-19.407408" vertical-offset="808" max-vertical-offset="1494">
+            <state line="63" column="0" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.0" vertical-offset="808" max-vertical-offset="1494">
               <folding />
             </state>
           </provider>
@@ -44,7 +156,7 @@
       <file leaf-file-name="Model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Api/Model/Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="0" selection-start="1568" selection-end="1568" vertical-scroll-proportion="-8.444445" vertical-offset="978" max-vertical-offset="2394">
+            <state line="39" column="0" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="2394">
               <folding />
             </state>
           </provider>
@@ -53,7 +165,7 @@
       <file leaf-file-name="Client.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Api/Client/Client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="480" selection-end="480" vertical-scroll-proportion="-17.407408" vertical-offset="16" max-vertical-offset="702">
+            <state line="11" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="702">
               <folding />
             </state>
           </provider>
@@ -62,7 +174,7 @@
       <file leaf-file-name="ApiSoapClient.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Api/Client/ApiSoapClient.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="769" selection-end="769" vertical-scroll-proportion="-13.407408" vertical-offset="196" max-vertical-offset="882">
+            <state line="12" column="68" selection-start="205" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="882">
               <folding />
             </state>
           </provider>
@@ -75,43 +187,51 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Api/Client/Client.php" />
-        <option value="$PROJECT_DIR$/Api/Model/Attribute.php" />
-        <option value="$PROJECT_DIR$/Api/Model/Product.php" />
-        <option value="$PROJECT_DIR$/Api/Model/Cart.php" />
-        <option value="$PROJECT_DIR$/Api/Model/Category.php" />
-        <option value="$PROJECT_DIR$/Api/Model/AbstractCollection.php" />
         <option value="$PROJECT_DIR$/Api/Hydrator/NullHydrator.php" />
         <option value="$PROJECT_DIR$/Api/Hydrator/ProductHydrator.php" />
         <option value="$PROJECT_DIR$/Api/Hydrator/AbstractHydrator.php" />
-        <option value="$PROJECT_DIR$/Api/Entity/ProductCreateEntity.php" />
         <option value="$PROJECT_DIR$/Api/Model/Collection.php" />
-        <option value="$PROJECT_DIR$/Api/Entity/Entity.php" />
-        <option value="$PROJECT_DIR$/Api/Model/Model.php" />
         <option value="$PROJECT_DIR$/Api/Client/ApiSoapClient.php" />
         <option value="$PROJECT_DIR$/Api/Model/Catalog.php" />
+        <option value="$PROJECT_DIR$/Api/Filter/AbstractFilter.php" />
+        <option value="$PROJECT_DIR$/Api/Filter/ComplexFilter.php" />
+        <option value="$PROJECT_DIR$/Api/Entity/ProductTierPriceEntity.php" />
+        <option value="$PROJECT_DIR$/Api/Entity/StockItemUpdateEntity.php" />
+        <option value="$PROJECT_DIR$/Api/Model/Model.php" />
+        <option value="$PROJECT_DIR$/Api/Entity/ProductCreateEntity.php" />
+        <option value="$PROJECT_DIR$/Api/Entity/Entity.php" />
+        <option value="$PROJECT_DIR$/Api/Entity/ProductLinkEntity.php" />
+        <option value="$PROJECT_DIR$/Api/Model/Product.php" />
         <option value="$PROJECT_DIR$/api.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="default" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="266" />
-    <option name="y" value="42" />
-    <option name="width" value="2201" />
-    <option name="height" value="1303" />
+    <option name="x" value="105" />
+    <option name="y" value="50" />
+    <option name="width" value="1008" />
+    <option name="height" value="1022" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -130,7 +250,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -139,101 +258,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hydrator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="reference.settings.deploy.options" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/api.php" />
+    <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/api.php" />
+    <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -369,8 +408,8 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.api.php" />
-      <item index="1" class="java.lang.String" itemvalue="PHP Script.Api" />
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.Api" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.api.php" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -379,37 +418,64 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f9e0bc22-cb71-4f9c-b1fd-7b4af1e4b7e3" name="Default" comment="" />
       <created>1389827347031</created>
       <updated>1389827347031</updated>
     </task>
+    <task id="LOCAL-00001" summary="Test Commit">
+      <created>1390332457109</created>
+      <updated>1390332457109</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update Commit">
+      <created>1390377011860</created>
+      <updated>1390377011860</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="266" y="42" width="2201" height="1303" extended-state="0" />
+    <frame x="105" y="50" width="1008" height="1022" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24988641" sideWeight="0.6004862" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39951378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23492724" sideWeight="0.6004862" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39951378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -419,6 +485,9 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Test Commit" />
+    <MESSAGE value="Update Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -430,124 +499,122 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/api.php</url>
-          <line>45</line>
-          <option name="timeStamp" value="54" />
+          <line>80</line>
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="55" />
+      <option name="time" value="74" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Api/Model/AbstractCollection.php">
+    <entry file="file://$PROJECT_DIR$/Api/Filter/ComplexFilter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="16" selection-start="2680" selection-end="2699" vertical-scroll-proportion="0.65597665" vertical-offset="1530" max-vertical-offset="2610">
+        <state line="11" column="28" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="342">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Api/Model/Category.php">
+    <entry file="file://$PROJECT_DIR$/Api/Entity/ProductTierPriceEntity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="0.33236152" vertical-offset="150" max-vertical-offset="1260">
+        <state line="11" column="28" selection-start="141" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Api/Entity/StockItemUpdateEntity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="28" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="342">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Api/Hydrator/NullHydrator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="23" selection-start="227" selection-end="227" vertical-scroll-proportion="0.393586" vertical-offset="0" max-vertical-offset="686">
-          <folding>
-            <element signature="e#6#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Api/Entity/ProductCreateEntity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.34110788" vertical-offset="0" max-vertical-offset="686">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Api/Hydrator/AbstractHydrator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="0.6034985" vertical-offset="0" max-vertical-offset="686">
+        <state line="15" column="0" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="414">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Api/Hydrator/ProductHydrator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="843" selection-end="843" vertical-scroll-proportion="0.7609329" vertical-offset="0" max-vertical-offset="686">
+        <state line="11" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="756">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Api/Model/Collection.php">
+    <entry file="file://$PROJECT_DIR$/Api/Hydrator/AbstractHydrator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.33236152" vertical-offset="348" max-vertical-offset="1116">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Api/Entity/Entity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="845" selection-end="845" vertical-scroll-proportion="0.6851312" vertical-offset="304" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Api/Model/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="248" selection-end="248" vertical-scroll-proportion="0.3148688" vertical-offset="0" max-vertical-offset="686">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Api/Model/CollectionException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="35" selection-start="147" selection-end="147" vertical-scroll-proportion="0.1574344" vertical-offset="0" max-vertical-offset="686">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Api/Model/Cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.33236152" vertical-offset="312" max-vertical-offset="1440">
+        <state line="17" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="756">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Api/Model/Catalog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="0" selection-start="1917" selection-end="1917" vertical-scroll-proportion="-19.407408" vertical-offset="808" max-vertical-offset="1494">
+        <state line="63" column="0" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.0" vertical-offset="808" max-vertical-offset="1494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Api/Entity/ProductLinkEntity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Api/Model/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="1350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Api/Entity/ProductCreateEntity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Api/Entity/Entity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="0" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.0" vertical-offset="1152" max-vertical-offset="1332">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Api/Model/Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="1568" selection-end="1568" vertical-scroll-proportion="-8.444445" vertical-offset="978" max-vertical-offset="2394">
+        <state line="39" column="0" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="2394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Api/Model/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="594">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Api/Client/Client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="480" selection-end="480" vertical-scroll-proportion="-17.407408" vertical-offset="16" max-vertical-offset="702">
+        <state line="11" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="702">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Api/Client/ApiSoapClient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="769" selection-end="769" vertical-scroll-proportion="-13.407408" vertical-offset="196" max-vertical-offset="882">
+        <state line="12" column="68" selection-start="205" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="882">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1298" selection-end="1298" vertical-scroll-proportion="-1.0466472" vertical-offset="1582" max-vertical-offset="2268">
+        <state line="80" column="0" selection-start="1935" selection-end="1935" vertical-scroll-proportion="0.2611684" vertical-offset="1212" max-vertical-offset="2898">
           <folding />
         </state>
       </provider>
